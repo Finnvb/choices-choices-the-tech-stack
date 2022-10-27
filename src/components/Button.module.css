@@ -1,0 +1,25 @@
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+.centered {
+    position: absolute;
+    top: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+.img {
+    height: 5rem;	
+    
+}
+
+a {
+    text-decoration: none;
+    color: var(--light);
+    font-size: 1.2rem;
+}

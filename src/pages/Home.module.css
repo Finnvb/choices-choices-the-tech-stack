@@ -20,14 +20,14 @@ h2 {
     margin: 2rem 0;
 }
 
-section img {
+.section .img {
     width: 450px;
     height: 100%;
     box-shadow: 0px 0px 20px 1px #000;
     border: 7px solid var(--red);
 }
 
-section {
+.section {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -36,7 +36,7 @@ section {
 }
 
 @media (max-width: 40em) {
-    section {
+    .section {
         flex-direction: column-reverse;
     }
 
@@ -48,7 +48,7 @@ section {
         font-size: 1.2rem;
     }
 
-    section img {
+    .section img {
         margin-bottom: 2rem;
         width: 300px;
     }

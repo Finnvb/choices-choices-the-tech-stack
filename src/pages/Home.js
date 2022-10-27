@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
 
+import Button from "../components/Button";
 import styles from './Home.module.css';
 
 function HomePage(){
 return <main className={styles.main} >
-	<header>
+	<header >
 		
 		
 		<h1>Stories of the <br /> ILOJO BAR</h1>
@@ -12,10 +12,17 @@ return <main className={styles.main} >
 		<h2>Discover the stories of the <br /> demolished bar in Lagos</h2>
 	</header>
 
-	<section>
-		<li><Link to='/overview'>Overview page</Link></li>
+	<section className={styles.section}>
+		<Button 
+			
+			linktext='Discover Stories'
+			source = '/goldplate2.png'
+		
+			
+			/>
 
-		<img src="/cdf-1950s.png" alt="Ilojo-bar" />
+
+		<img className={styles.img} src="/cdf-1950s.png" alt="Ilojo-bar" />
 	</section>
 </main>
 
