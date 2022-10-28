@@ -1,5 +1,5 @@
 
-import Button from "../components/Button";
+import Button from "../lib/components/Button";
 import styles from './Home.module.css';
 
 function HomePage(){
