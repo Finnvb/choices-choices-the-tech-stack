@@ -45,7 +45,7 @@ function OverviewPage(){
 
             <h2 className={styles.h2}>{story.data.storytitle[0].text}</h2>
          
-            <Button linktext='Discover Stories' buttonLink={story.uid}  source ='/goldplate2.png'/>
+            <Button linktext='home' buttonLink={story.uid} buttonText='Discover'  source ='/goldplate.png'/>
         
           </section>
      

@@ -1,5 +1,6 @@
 import styles from './Header.module.css';
 import Navmenu from '../components/Navmenu';
+import Button from '../components//Button';
 import { useState } from 'react';
 function Header(){
 
@@ -17,9 +18,17 @@ function Header(){
 	
 
    return <div className={styles.header}>
-	<div className={styles.home}>
+	{/* <div className={styles.home}>
 		<a className={styles.centered} href="/">Home </a>
-	</div>
+	</div> */}
+
+	<Button 
+			
+			buttonText='Home'
+			source = '/goldplatehome.svg'
+			buttonLink='/'
+			
+			/>
 
 	<h1 className={styles.h1}>Stories of the <br /> ILOJO BAR</h1>
 

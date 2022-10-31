@@ -18,6 +18,7 @@ return <main className={styles.main} >
 			linktext='Discover Stories'
 			source = '/goldplate2.png'
 			buttonLink='/overview'
+			buttonText='Discover Stories'
 			
 			/>
 
