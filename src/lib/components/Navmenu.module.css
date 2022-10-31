@@ -1,0 +1,49 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color:var(--red);
+    top: 0;
+    right: 0;
+    width: 30vw;
+    height: 100vh;
+    color: #ffffff;
+    opacity: 100;
+    z-index: 200;
+    position: fixed;
+  
+}
+
+
+.li:hover{
+    transform: scale(1.2);
+ 
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2rem;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.li{
+    list-style: none;
+    margin: 0.5rem 0;
+    transition: 300ms;
+    text-align: center;
+}
+
+
+@media (max-width:40rem){
+ .section{
+     width: 70vw;
+ }
+}

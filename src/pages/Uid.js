@@ -24,10 +24,10 @@ return <div> <Header/>
 {document && (<p className={styles.p}>{document.data.storycontent[0].text}</p>) }
 
 <section className={styles.section}>
-<div>{document && (<img className={styles.img} alt={document.data.storyimages[0].image1.alt} src={document.data.storyimages[0].image1.url}/>) }
-{document && (<p className={styles.altText}>{document.data.storyimages[0].image1.alt}</p>) }</div>
 <div>{document && (<img className={styles.img} alt={document.data.storyimages[0].image2.alt} src={document.data.storyimages[0].image2.url}/>) }
 {document && (<p className={styles.altText}>{document.data.storyimages[0].image2.alt}</p>) }</div>
+<div>{document && (<img className={styles.img} alt={document.data.storyimages[0].image1.alt} src={document.data.storyimages[0].image1.url}/>) }
+{document && (<p className={styles.altText}>{document.data.storyimages[0].image1.alt}</p>) }</div>
 <div>{document && (<img className={styles.img} alt={document.data.storyimages[0].image3.alt} src={document.data.storyimages[0].image3.url}/>) }
 {document && (<p className={styles.altText}>{document.data.storyimages[0].image3.alt}</p>) }</div>
 <div>{document && (<img className={styles.img} alt={document.data.storyimages[0].image4.alt} src={document.data.storyimages[0].image4.url}/>) }

@@ -2,7 +2,7 @@ import {  useAllPrismicDocumentsByType } from '@prismicio/react'
 
 import Header from '../lib/components/Header';
 import Button from '../lib/components/Button';
-
+import Navmenu from '../lib/components/Navmenu';
 import styles from './Overview.module.css';
 
 function OverviewPage(){
@@ -16,27 +16,15 @@ function OverviewPage(){
         <>
            
          <Header/>
-  
 
-        {/* {document[7].data.storycontent.map(content => (
-        
-                <p key={`c-${content.text}`} >{content.text}</p>
+         {/* <Navmenu/> */}
+      
 
-        
-        ))} */}
-
-
-{/* {document[2].data.storyimages.map(content => (
-        
-        // <p key={`c-${content.text}`} >{content.text}</p>
-        <div>{(<img src={content.image1.url}/>) }</div>
-
-))} */}
 
  <main className={styles.main}>
 {document.map((story) => {
-  
-console.log(story)
+
+// console.log(story)
 
         return (
          
@@ -66,7 +54,7 @@ console.log(story)
 
 </main>
 
-{/* <div>{document && (<img src={document[3].data.storyimages[0].image1.url}/>) }</div> */}
+
         </>
     )
     

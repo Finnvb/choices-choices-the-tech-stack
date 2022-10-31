@@ -54,9 +54,7 @@
     flex-direction: column;
 }
 
-img{
-    cursor: auto;
-}
+
 
 
 @media (max-width:40rem){
