@@ -9,7 +9,7 @@ return <main className={styles.main} >
 		
 		<h1 className={styles.h1}>Stories of the <br /> ILOJO BAR</h1>
 
-		<h2>Discover the stories of the <br /> demolished bar in Lagos</h2>
+		<h2 className={styles.h2}>Discover the stories of the <br /> demolished bar in Lagos</h2>
 	</header>
 
 	<section className={styles.section}>
@@ -17,7 +17,7 @@ return <main className={styles.main} >
 			
 			linktext='Discover Stories'
 			source = '/goldplate2.png'
-		
+			buttonLink='/overview'
 			
 			/>
 

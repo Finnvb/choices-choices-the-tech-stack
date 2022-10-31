@@ -1,9 +1,10 @@
 
 
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Routes, useParams } from "react-router-dom";
 
 import HomePage from "./pages/Home";
 import OverviewPage from "./pages/Overview";
+import UidPage from "./pages/Uid";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       </Route>
       <Route path='/overview'>
         <OverviewPage/>
+      </Route>
+      <Route path='/:uid'>
+        <UidPage/>
       </Route>
     </Switch>
  </div>
