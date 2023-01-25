@@ -1,6 +1,6 @@
 # Ilojo Bar (met React)
 
-<img width="800" alt="Schermafbeelding 2022-11-03 om 16 42 03" src="https://user-images.githubusercontent.com/45170095/199767105-61408413-58ae-4293-aeef-dfe5e7c48306.png">
+<img width="800" alt="Schermafbeelding 2022-11-03 om 16 42 03" src="(https://user-images.githubusercontent.com/26089533/214597675-132a9557-97e2-4a68-8d66-f827fe22ae1a.png)">
 
 Dit project omvat een andere versie van de CMD Midterm website, ditmaal gebouwd in een tech stack die bestaat uit `Nuxt3` en `Prismic.io`.
 
