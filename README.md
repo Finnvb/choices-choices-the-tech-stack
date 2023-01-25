@@ -2,9 +2,6 @@
 
 <img width="800" alt="Schermafbeelding 2022-11-03 om 16 42 03" src="https://user-images.githubusercontent.com/26089533/214597797-50cdc55e-6d94-4603-9da1-54ce48fcbd94.png">
 
-
-Dit project omvat een andere versie van de CMD Midterm website, ditmaal gebouwd in een tech stack die bestaat uit `Nuxt3` en `Prismic.io`.
-
 Dit is een website voor de Ilojo Bar waarmee je verhalen kunt lezen over de verwoeste bar in Nigeria, Lagos. Dit keer gemaakt React en Prismic.io.
 
 [Webversie](https://choices-choices-the-tech-stack.vercel.app/)
