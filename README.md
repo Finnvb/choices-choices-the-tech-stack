@@ -32,10 +32,20 @@ Dit project is gemaakt met React en Prismic.io. Verder staat hieronder nog een l
 
 ## Installatie
 
-1. Clone of download deze repository
-2. Ga naar de root directory van het project.
-3. Gebruik `npm install` om de gebruikte dev dependencies en packages te installeren.
-4. Gebruik `npm run dev` om de web-server te starten. Deze is standaard bereikbar op poort `3000`.
+```
+# Cloning the repository
+git clone git@github.com:Finnvb/choices-choices-the-tech-stack.git
+
+# Moving to the folder
+cd choices-choices-the-tech-stack
+
+# Install NPM packages
+npm install
+
+# Run local server
+npm run start
+
+```
 
 
 ## 📖 Bronnen
