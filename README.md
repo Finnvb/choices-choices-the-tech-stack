@@ -48,14 +48,14 @@ npm run start
 ```
 
 
-## 📖 Bronnen
+## Bronnen
 
 [React](https://reactjs.org/)
 <br>
 [Prismic](https://prismic.io/)
 
 
-## 🔓 Licentie
+## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
